@@ -1,0 +1,32 @@
+.container{
+        display: flex;
+        justify-content: space-around;
+        height: 72px;
+        background-color: black;
+        .logo{
+            width: 100px;
+            height: 72px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    
+    ul{
+        color: white;
+        font-size: 24px;
+        display: flex;
+        list-style: none;
+        gap: 100px;
+        font-weight: 200;
+        li{
+            transition: 300ms;
+            cursor: pointer;
+            &:hover{
+                color: rgb(197, 36, 36);
+            }
+        }
+    
+    }
+}

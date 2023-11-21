@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: 72px;
+  background-color: black;
+}
+.container .logo {
+  width: 100px;
+  height: 72px;
+}
+.container .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container ul {
+  color: white;
+  font-size: 24px;
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  font-weight: 200;
+}
+.container ul li {
+  transition: 300ms;
+  cursor: pointer;
+}
+.container ul li:hover {
+  color: rgb(197, 36, 36);
+}/*# sourceMappingURL=test.css.map */
